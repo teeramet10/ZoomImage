@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RotateImage.xcodeproj">
+      location = "self:/Users/teeramet/project/ios-project/RotateImage/ZoomImage.xcodeproj">
    </FileRef>
 </Workspace>

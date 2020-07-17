@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8A87D2F0249B48680000B7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D2EF249B48680000B7FC /* AppDelegate.swift */; };
-		8A87D2F2249B48680000B7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D2F1249B48680000B7FC /* SceneDelegate.swift */; };
 		8A87D2F4249B48680000B7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A87D2F3249B48680000B7FC /* ViewController.swift */; };
 		8A87D2F7249B48680000B7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A87D2F5249B48680000B7FC /* Main.storyboard */; };
 		8A87D2F9249B48720000B7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A87D2F8249B48720000B7FC /* Assets.xcassets */; };
@@ -16,9 +15,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8A87D2EC249B48680000B7FC /* RotateImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A87D2EC249B48680000B7FC /* ZoomImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A87D2EF249B48680000B7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A87D2F1249B48680000B7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8A87D2F3249B48680000B7FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A87D2F6249B48680000B7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A87D2F8249B48720000B7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +38,7 @@
 		8A87D2E3249B48680000B7FC = {
 			isa = PBXGroup;
 			children = (
-				8A87D2EE249B48680000B7FC /* RotateImage */,
+				8A87D2EE249B48680000B7FC /* ZoomImage */,
 				8A87D2ED249B48680000B7FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +46,30 @@
 		8A87D2ED249B48680000B7FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8A87D2EC249B48680000B7FC /* RotateImage.app */,
+				8A87D2EC249B48680000B7FC /* ZoomImage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A87D2EE249B48680000B7FC /* RotateImage */ = {
+		8A87D2EE249B48680000B7FC /* ZoomImage */ = {
 			isa = PBXGroup;
 			children = (
 				8A87D2EF249B48680000B7FC /* AppDelegate.swift */,
-				8A87D2F1249B48680000B7FC /* SceneDelegate.swift */,
 				8A87D2F3249B48680000B7FC /* ViewController.swift */,
 				8A87D2F5249B48680000B7FC /* Main.storyboard */,
 				8A87D2F8249B48720000B7FC /* Assets.xcassets */,
 				8A87D2FA249B48720000B7FC /* LaunchScreen.storyboard */,
 				8A87D2FD249B48720000B7FC /* Info.plist */,
 			);
-			path = RotateImage;
+			path = ZoomImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A87D2EB249B48680000B7FC /* RotateImage */ = {
+		8A87D2EB249B48680000B7FC /* ZoomImage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A87D300249B48720000B7FC /* Build configuration list for PBXNativeTarget "RotateImage" */;
+			buildConfigurationList = 8A87D300249B48720000B7FC /* Build configuration list for PBXNativeTarget "ZoomImage" */;
 			buildPhases = (
 				8A87D2E8249B48680000B7FC /* Sources */,
 				8A87D2E9249B48680000B7FC /* Frameworks */,
@@ -82,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = RotateImage;
+			name = ZoomImage;
 			productName = RotateImage;
-			productReference = 8A87D2EC249B48680000B7FC /* RotateImage.app */;
+			productReference = 8A87D2EC249B48680000B7FC /* ZoomImage.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8A87D2E7249B48680000B7FC /* Build configuration list for PBXProject "RotateImage" */;
+			buildConfigurationList = 8A87D2E7249B48680000B7FC /* Build configuration list for PBXProject "ZoomImage" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A87D2EB249B48680000B7FC /* RotateImage */,
+				8A87D2EB249B48680000B7FC /* ZoomImage */,
 			);
 		};
 /* End PBXProject section */
@@ -140,7 +137,6 @@
 			files = (
 				8A87D2F4249B48680000B7FC /* ViewController.swift in Sources */,
 				8A87D2F0249B48680000B7FC /* AppDelegate.swift in Sources */,
-				8A87D2F2249B48680000B7FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +282,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5T9M7FM4M;
-				INFOPLIST_FILE = RotateImage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZoomImage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.rotateImage.RotateImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Image.ZoomImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +301,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y5T9M7FM4M;
-				INFOPLIST_FILE = RotateImage/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ZoomImage/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.rotateImage.RotateImage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Image.ZoomImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A87D2E7249B48680000B7FC /* Build configuration list for PBXProject "RotateImage" */ = {
+		8A87D2E7249B48680000B7FC /* Build configuration list for PBXProject "ZoomImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A87D2FE249B48720000B7FC /* Debug */,
@@ -328,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A87D300249B48720000B7FC /* Build configuration list for PBXNativeTarget "RotateImage" */ = {
+		8A87D300249B48720000B7FC /* Build configuration list for PBXNativeTarget "ZoomImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8A87D301249B48720000B7FC /* Debug */,
